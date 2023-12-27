@@ -27,8 +27,13 @@ function HistoryPage() {
     const query = ref(db, "history");
     return onValue(query, (snapshot) => {
       const data = snapshot.val();
-      const values = Object.values(data);
-      setList(values);
+      if (data) {
+        const values = Object.values(data);
+        setList(values);
+      } else {
+        setList([])
+      }
+      
     });
   };
 
