@@ -28,7 +28,7 @@ import AdminLayout from "layouts/Admin.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <BrowserRouter basename="/index.html">
+  <BrowserRouter basename="/">
     <Switch>
       <Route path="/admin" render={(props) => <AdminLayout {...props} />} />
     </Switch>
