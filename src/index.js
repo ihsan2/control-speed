@@ -24,14 +24,13 @@ import "assets/scss/now-ui-dashboard.scss?v1.5.0";
 import "assets/css/demo.css";
 
 import AdminLayout from "layouts/Admin.js";
-import { HashRouter } from "react-router-dom/cjs/react-router-dom.min";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <HashRouter>
+  <BrowserRouter basename="/React">
     <Switch>
       <Route path="/admin" render={(props) => <AdminLayout {...props} />} />
     </Switch>
-  </HashRouter>
+  </BrowserRouter>
 );
