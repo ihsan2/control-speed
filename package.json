@@ -3,7 +3,7 @@
   "version": "1.5.1",
   "main": "dist/index.js",
   "private": true,
-  "homepage": "https://demos.creative-tim.com/now-ui-dashboard-react/#/",
+  "homepage": ".",
   "dependencies": {
     "bootstrap": "4.6.0",
     "firebase": "^9.19.1",
