@@ -31,7 +31,6 @@ root.render(
   <BrowserRouter>
     <Switch>
       <Route path="/admin" render={(props) => <AdminLayout {...props} />} />
-      <Redirect to="/admin/maps" />
     </Switch>
   </BrowserRouter>
 );

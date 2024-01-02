@@ -21,7 +21,7 @@ function HistoryPage() {
 
   useEffect(() => {
     getData();
-  });
+  }, []);
 
   const getData = () => {
     const query = ref(db, "history");

@@ -22,7 +22,7 @@ function HomePage() {
 
   useEffect(() => {
     getData();
-  });
+  }, []);
 
   const getData = () => {
     const query = ref(db, "realtime");
