@@ -34,6 +34,7 @@ root.render(
       <Route path="/admin" render={(props) => <AdminLayout {...props} />} />
       <Route path="/admin/" render={(props) => <AdminLayout {...props} />} />
       <Route path="/admin/home" render={(props) => <AdminLayout {...props} />} />
+      <Route path="/admin/history" render={(props) => <AdminLayout {...props} />} />
     </Switch>
   </BrowserRouter>
 );
