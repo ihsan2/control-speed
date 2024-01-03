@@ -55,6 +55,9 @@ function Admin(props) {
           })}
           <Redirect from="/" to="/admin/home" />
           <Redirect from="/admin" to="/admin/home" />
+          <Redirect from="/admin/" to="/admin/home" />
+          <Redirect from="/admin/home" to="/admin/home" />
+          <Redirect from="/admin/history" to="/admin/history" />
         </Switch>
         <Footer fluid />
       </div>
